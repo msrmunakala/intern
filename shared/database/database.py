@@ -6,7 +6,7 @@ import sys
 sys.path.append('.')
 # custom imports
 
-connection_string = 'mysql+mysqlconnector://root:@127.0.0.1:3306/internship'
+connection_string = 'mysql+mysqlconnector://root:@127.0.0.1:3306/intership'
 
 engine = create_engine(
     connection_string
